@@ -13,6 +13,7 @@
 ### Feature
 1. Check out our cohort norms!
   - By running `$ ruby norms.rb` as a terminal command inside the repo's local directory you can see a pretty printed list of our cohort norms. Look fmailiar? IT SHOULD!! This is all about JSON!
+    - If you'd like to listen to them too, run `$ ruby norms_english_serializer.rb` 
 2. Let's play a game!
   - From your terminal, run `$ ruby json_game_runner.rb` while inside the repo's local directory to boot up JASON BINGO!
     - Press `P` to play or `Q` to quit.
