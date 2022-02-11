@@ -1,4 +1,3 @@
-require 'pry'
 require 'matrix'
 
 class JasonGame
@@ -6,14 +5,14 @@ class JasonGame
   attr_reader :grid_size, :box_length
 
   def initialize
-    @grid_size = 3
+    @grid_size = 4
     @jasons_board_array = make_board
     @box_length = @jasons_board_array.max_by(&:length).length + 2
   end
 
   def make_board
     # List of available Jasons. If expanding board add a ton more Jasons
-    jasons = ["mraz", "sudeikis", "alexander", "derulo", "momoa", "bateman", "aldean", "statham", "biggs", "red ranger", "the murderer guy"]
+    jasons = ["mraz", "sudeikis", "alexander", "derulo", "momoa", "bateman", "aldean", "statham", "biggs", "red ranger", "the murderer guy", '.parse', 'json', 'waterfalls', 'judakiss', 'and the argonauts']
 
     # Shuffle list, every person gets random shuffling
     shuffled = jasons.shuffle
