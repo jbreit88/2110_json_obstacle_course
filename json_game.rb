@@ -12,7 +12,7 @@ class JasonGame
 
   def make_board
     # List of available Jasons. If expanding board add a ton more Jasons
-    jasons = ["mraz", "sudeikis", "alexander", "derulo", "momoa", "bateman", "aldean", "statham", "biggs", "red ranger", "the murderer guy", '.parse', 'json', 'waterfalls', 'judakiss', 'and the argonauts']
+    jasons = ["mraz", "sudeikis", "alexander", "derulo", "momoa", "bateman", "aldean", "statham", "biggs", "red ranger", "the murderer guy", '.parse', 'waterfalls', 'judakiss', 'and the argonauts', 'bourne']
 
     # Shuffle list, every person gets random shuffling
     shuffled = jasons.shuffle
